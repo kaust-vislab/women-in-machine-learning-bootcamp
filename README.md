@@ -4,6 +4,8 @@ Workshop materials for Women 2 Impact: Machine Learning Bootcamp.
 ## 0. Install Git
 Install the latest version of [Git](https://git-scm.com/downloads) version control system.
 
+# Recommended installation instructions
+
 ## 1. Install Anaconda
 Install the Python 3.7 version of either [Anaconda](https://www.anaconda.com/distribution/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html). 
 
@@ -33,3 +35,22 @@ $ source activate W2I-machine-learning-bootcamp
 $ jupyter lab
 ```
 
+# Optional installation instructions
+
+## 1. Install Docker CE
+Sign up for an account on [DockerHub](https://hub.docker.com) and install the version of [Docker CE](https://hub.docker.com/search/?type=edition&offering=community) for your operating system.
+
+## 2. Run a Docker container with the required software pre-installed
+
+```bash
+$ cd W2I-machine-learning-bootcamp/
+$ docker-compose up
+```
+
+When you are finished with your work you may want to run 
+
+```bash
+$ docker-compose down
+```
+
+to gracefully tear down the running container.

@@ -10,7 +10,11 @@ RUN useradd --create-home --home-dir $HOME ${username}
 
 # switch to newly created user to avoid running container as root
 USER ${username}
+WORKDIR $HOME
+
+# create a project directory within the user's home
 ARG project=project
+RUN mkdir $HOME/${project}
 WORKDIR $HOME/${project}
 
 # build the specified conda environment from a file (defaults to 'environment.yml')

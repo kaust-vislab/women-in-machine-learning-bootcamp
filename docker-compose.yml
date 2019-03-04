@@ -7,6 +7,3 @@ services:
       - "8888:8888"
     volumes:
       - $PWD:/home/al-khawarizmi/project
-    
-
-

@@ -2,7 +2,7 @@ version: "3"
 
 services:
   jupyter-lab:
-    image: kaustvl/W2I-machine-learning-bootcamp
+    image: kaustvl/w2i-machine-learning-bootcamp
     ports:
       - "8888:8888"
     volumes:

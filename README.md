@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kaust-vislab/W2I-machine-learning-bootcamp/master)
+
 # W2I-machine-learning-bootcamp
 Workshop materials for Women 2 Impact: Machine Learning Bootcamp.
 

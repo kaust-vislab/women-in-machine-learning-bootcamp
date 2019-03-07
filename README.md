@@ -4,16 +4,12 @@
 Workshop materials for Women 2 Impact: Machine Learning Bootcamp.
 
 ## 0. Install Git
-Install the latest version of [Git](https://git-scm.com/downloads) version control system.
 
-### Linux
-The default shell is usually Bash, but if your machine is set up differently you can run a Bash shell by opening a terminal and typing `bash`. There is no need to install anything. 
-
-### Mac OS
-The default shell in all versions of Mac OS is Bash, so there is no need to install anything. You can access Bash from the Terminal application (found in `/Applications/Utilities`). You may want to keep the Terminal application in your dock for this workshop.
+### Linux or Mac OS
+Install the latest version of [Git](https://git-scm.com/downloads) version control system for your operating system.
 
 ### Windows
-In order to run unix-based shells, such as Bash, on Windows (which is a non-unix-based OS) you will need to install a Bash emulator. There are several available, but for this workshop I am recommending the Git-Bash shell emulator.
+Download instructions for Windows are a bit more involved.
 
 1. Download the [Git for Windows](https://gitforwindows.org/) installer.
 2. Run the installer and follow the steps below:

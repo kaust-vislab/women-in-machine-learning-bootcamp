@@ -21,6 +21,7 @@ WORKDIR $HOME/${project}
 ARG environment=environment.yml
 COPY ${environment} .
 RUN conda env create --file ${environment} && \
+    conda clean -tipsy && \
     echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc && \ 
     echo "conda activate $(head -1 ${environment} | cut -d' ' -f2)" >> ~/.bashrc
 

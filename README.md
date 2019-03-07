@@ -3,6 +3,9 @@
 # W2I-machine-learning-bootcamp
 Workshop materials for Women 2 Impact: Machine Learning Bootcamp.
 
+
+# Installation instructions
+
 ## 0. Install Git
 
 ### Linux or Mac OS
@@ -26,8 +29,6 @@ Download instructions for Windows are a bit more involved.
     * Type the following line into the command prompt window exactly as shown: `setx HOME "%USERPROFILE%"`
     * Press [Enter], you should see `SUCCESS: Specified value was saved.`
     * Quit command prompt by typing exit then pressing [Enter]
-
-# Recommended installation instructions
 
 ## 1. Install Anaconda
 Install the Python 3.7 version of either [Anaconda](https://www.anaconda.com/distribution/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html). 

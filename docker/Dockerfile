@@ -1,6 +1,6 @@
 FROM continuumio/miniconda3:4.5.11
 
-MAINTAINER pughdr <david.pugh@kaust.edu.sa>
+LABEL maintainer="david.pugh@kaust.edu.sa"
 
 # create a new user (defaults to 'al-khawarizmi')
 USER root
@@ -25,6 +25,9 @@ RUN conda env create --file ${environment} && \
     echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc && \ 
     echo "conda activate $(head -1 ${environment} | cut -d' ' -f2)" >> ~/.bashrc
 
-# copied from parent image so that these do not run as root!
+RUN conda activate $(head -1 ${environment} | cut -d' ' -f2)
+
+# copied from parent image so that entrypoint does not run as root!
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
-CMD [ "/bin/bash" ]
+
+CMD [ "jupyter", "lab", "--ip", "0.0.0.0", "--no-browser" ]

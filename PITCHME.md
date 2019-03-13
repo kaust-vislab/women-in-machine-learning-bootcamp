@@ -25,11 +25,11 @@ Staff Scientist, KVL
 
 ---
 
-## Why Learn R for Data Science?
+## Why Learn Python for Data Science?
 
 ---?image=assets/img/data-science-programming-languages.png&size=75% 75%
 
-@snap[north]
+@snap[north span-100]
 #### Python is widely used...
 @snapend
 
@@ -60,11 +60,11 @@ Staff Scientist, KVL
 @snapend
 
 @ul[spaced]
-* version control using Git (and GitHub or GitLab!)
+* Version control using Git (and GitHub or GitLab!)
 * SQL programming
 * Unix shell (Bash) programming 
-* working remotely with clusters
-* container-based workflows
+* Working remotely with clusters
+* Container-based workflows
 @ulend
 
 ---

@@ -1,5 +1,5 @@
 @snap[north span-100]
-### Introduction to R for Data Science
+### Introduction to Python for Data Science
 @snapend
 
 @snap[south-west text-08]
@@ -30,7 +30,7 @@ Staff Scientist, KVL
 ---?image=assets/img/data-science-programming-languages.png&size=75% 75%
 
 @snap[north]
-#### R is widely used...
+#### Python is widely used...
 @snapend
 
 ---?image=assets/img/data-science-tasks.png&size=75% 75%
@@ -42,17 +42,17 @@ Staff Scientist, KVL
 ---?image=assets/img/data-science-viz-tools.png&size=75% 75%
 
 @snap[north]
-#### ...especially data viz!
+#### ...especially data viz...
 @snapend
 
 ---?image=assets/img/data-science-machine-learning-tools.png&size=75% 75%
 
 @snap[north span-100]
-#### But R is not great for ML
+#### ...and machine/deep learning!
 @snapend
 
 ---
-## R is only one tool in the toolbox!
+## Python is only one tool in the toolbox!
 
 ---
 @snap[north span-100]
@@ -68,4 +68,3 @@ Staff Scientist, KVL
 @ulend
 
 ---
-![](assets/img/data-science-workshop-advert.jpg) 

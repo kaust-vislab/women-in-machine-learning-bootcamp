@@ -1,4 +1,5 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kaust-vislab/W2I-machine-learning-bootcamp/master?urlpath=lab)
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/kaust-vislab/W2I-machine-learning-bootcamp/master?grs=github)
 
 # W2I-machine-learning-bootcamp
 

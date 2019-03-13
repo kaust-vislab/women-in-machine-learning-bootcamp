@@ -66,5 +66,3 @@ Staff Scientist, KVL
 * Working remotely with clusters
 * Container-based workflows
 @ulend
-
----

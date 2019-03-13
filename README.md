@@ -32,13 +32,14 @@ Download instructions for Windows are a bit more involved.
 Install the Python 3.7 version of either [Anaconda](https://www.anaconda.com/distribution/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html). 
 
 ## 2. Clone the workshop repository using Git
+Open a terminal window (Linux or Mac OS). On Mac OS the terminal can be found in`/Applications/Utilities/` folder (I recommend adding the terminal to your dock!). On Windows open a Git Bash Shell (shortcut should be on your desktop!). Now type the following command at the prompt to clone the workshop repository.
 
 ```bash
 $ git clone https://github.com/kaust-vislab/W2I-machine-learning-bootcamp.git
 ```
 
 ## 3. Create the Conda environment 
-Change into the workshop directory and create the conda environment.
+From your terminal, change into the workshop directory and run the following command to create the conda environment.
 
 ```bash
 $ cd W2I-machine-learning-bootcamp/
@@ -46,33 +47,14 @@ $ conda env create -f environment.yml
 ```
 
 ## 4. Activate the Conda environment
+From your terminal, run the following command to activate the conda environment.
 
 ```bash
 $ source activate W2I-machine-learning-bootcamp
 ```
 
 ## 5. Start JupyterLab
-
+Once the environment is active you can run the following command to start JupyterLab.
 ```
 $ jupyter lab
 ```
-
-# Optional installation instructions
-
-## 1. Install Docker CE
-Sign up for an account on [DockerHub](https://hub.docker.com) and install the version of [Docker CE](https://hub.docker.com/search/?type=edition&offering=community) for your operating system.
-
-## 2. Run a Docker container with the required software pre-installed
-
-```bash
-$ cd W2I-machine-learning-bootcamp/
-$ docker-compose up
-```
-
-When you are finished with your work you may want to run 
-
-```bash
-$ docker-compose down
-```
-
-to gracefully tear down the running container.

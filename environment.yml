@@ -21,3 +21,4 @@ dependencies:
   - fastai
   - pip:
     - kaggle==1.5.*
+    - torchtext==0.3.*

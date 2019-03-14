@@ -3,9 +3,11 @@
 
 # W2I-machine-learning-bootcamp
 
-Day-one of the workshop will largely follow the Software and Data Carpentry's [Plotting and Programming in Python](http://swcarpentry.github.io/python-novice-gapminder/) lecture. Additional material may be drawn from the lesson on [Programming in Python](http://swcarpentry.github.io/python-novice-inflammation/) as needed. 
+* Day 1 of the workshop will largely follow the Software and Data Carpentry's [Plotting and Programming in Python](http://swcarpentry.github.io/python-novice-gapminder/) lecture. Additional material may be drawn from the lesson on [Programming in Python](http://swcarpentry.github.io/python-novice-inflammation/) as needed. 
 
-Day-two of the workshop will cover any remaining material from the Software Carpentry lectures before moving on to cover chapter two of [_Hands-on Machine Learning with Scikit-learn and TensorFlow._](https://proquest.safaribooksonline.com/9781491962282)
+* Day 2 of the workshop will cover any remaining material from the Software Carpentry lectures before moving on to cover chapter two of [_Hands-on Machine Learning with Scikit-learn and TensorFlow._](https://proquest.safaribooksonline.com/9781491962282)
+
+Days 3-5 will cover in more detail various approaches from classical machine learning and deep learning.
 
 # Installation instructions
 

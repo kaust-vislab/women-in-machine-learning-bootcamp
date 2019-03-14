@@ -44,6 +44,11 @@ Open a terminal window (Linux or Mac OS). On Mac OS the terminal can be found in
 ```bash
 $ git clone https://github.com/kaust-vislab/W2I-machine-learning-bootcamp.git
 ```
+There is another repository of notebooks that you will need for day 5 which you might as well go ahead and clone now.
+
+```bash
+$ git clone https://github.com/bentrevett/pytorch-sentiment-analysis.git
+```
 
 ## 3. Create the Conda environment 
 From your terminal, change into the workshop directory and run the following command to create the conda environment.

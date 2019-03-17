@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kaust-vislab/W2I-machine-learning-bootcamp/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kaust-vislab/W2I-machine-learning-bootcamp/master)
 [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/kaust-vislab/W2I-machine-learning-bootcamp/master?grs=github)
 
 # W2I-machine-learning-bootcamp
@@ -44,6 +44,11 @@ Open a terminal window (Linux or Mac OS). On Mac OS the terminal can be found in
 ```bash
 $ git clone https://github.com/kaust-vislab/W2I-machine-learning-bootcamp.git
 ```
+There is another repository of notebooks that you will need for day 5 which you might as well go ahead and clone now.
+
+```bash
+$ git clone https://github.com/bentrevett/pytorch-sentiment-analysis.git
+```
 
 ## 3. Create the Conda environment 
 From your terminal, change into the workshop directory and run the following command to create the conda environment.
@@ -60,10 +65,10 @@ From your terminal, run the following command to activate the conda environment.
 $ source activate W2I-machine-learning-bootcamp
 ```
 
-## 5. Start JupyterLab
-Once the environment is active you can run the following command to start JupyterLab.
+## 5. Start Jupyter Notebook Server
+Once the environment is active you can run the following command to start the [Jupyter Notebook](https://jupyter.org/) server.
 ```
-$ jupyter lab
+$ jupyter notebook
 ```
 
 ## Additional Resources

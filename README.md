@@ -65,10 +65,10 @@ From your terminal, run the following command to activate the conda environment.
 $ source activate W2I-machine-learning-bootcamp
 ```
 
-## 5. Start JupyterLab
-Once the environment is active you can run the following command to start JupyterLab.
+## 5. Start Jupyter Notebook Server
+Once the environment is active you can run the following command to start the [Jupyter Notebook](https://jupyter.org/) server.
 ```
-$ jupyter lab
+$ jupyter notebook
 ```
 
 ## Additional Resources

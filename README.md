@@ -130,5 +130,6 @@ Python-based on-line data science training courses to dig deeper into a particul
 
 ##### Others
 
+* 10 Free Courses for Machine Learning and Data Science from [KDnuggets](https://www.kdnuggets.com/2018/11/10-free-must-see-courses-machine-learning-data-science.html).
 * Various Deep and Machine Learning Courses from [fast.ai](https://www.fast.ai/).
 
